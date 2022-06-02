@@ -1,0 +1,58 @@
+.FeildContainer{
+  margin: 30px auto;
+  width: 450px;
+  height: 500px;
+  background-color: #ccc;
+  border-radius: 3px;
+}
+.LogInCenterText{
+  text-align: center;
+  font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+}
+#LogIn{
+  width:70%;
+  margin-left:15%;
+  padding-top:50px;
+}
+#LogIn p{
+  padding-top:20px;
+  font-size:20px;
+  margin:0;
+}
+.enlarge{
+  width:100%;
+  height:30px
+}
+.LIbtn {
+  margin-top:30px;
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 13px;
+  background: #de1833;
+  text-decoration: none;
+}
+
+.LIbtn:hover {
+  background: #fc3c3c;
+  text-decoration: none;
+}
+@media (max-width: 1000px) {
+  .FeildContainer{
+  margin: 30px auto;
+  width: 850px;
+  height: 900px;
+  background-color: #ccc;
+  border-radius: 6px;
+}
+.enlarge{
+  width:100%;
+  height:70px
+}
+.LIbtn {
+  border-radius: 6px;
+  color: #ffffff;
+  font-size: 30px;
+  background: #de1833;
+  text-decoration: none;
+}
+}

@@ -1,0 +1,38 @@
+#YearImages{
+    width:99%;
+    margin-right:1%;
+    float:right;
+}
+.Year{
+    width:100%;
+    margin:0;
+}
+.Year li{
+    width:15.666%;
+    margin: 1% 0 1% 1%;
+    padding:0;
+    float:left;
+}
+.Year li img{
+    width:100%;
+}
+h2{
+    font-weight:500;
+    color:#333;
+}
+@media (max-width: 1200px) {
+    h2{
+        text-align:center;
+        font-size:36px;
+    }
+    .Year li{
+        width:30%;
+        margin: 1% 0 0 1%;
+        padding:0;
+        float:left;
+    }
+    .Year{
+        margin-left:4%;
+        width:97%;
+    }
+}

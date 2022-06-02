@@ -1,0 +1,163 @@
+#InfoSideBar{
+    top:0;
+    position: fixed;
+    left:0;
+    width:10%;
+    background-color:#333;
+    height:100%;
+}
+#LinkSide{
+    width:100%;
+    margin:0;
+}
+#LinkSide a{
+    font-size:18px;
+    text-align:center;
+    width:100%;
+    float:left;
+    color:white;
+}
+#AOWIcon{
+    width:90%;
+    margin-left:5%;
+    margin-top:20px;
+}
+#Title{
+    font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+	text-align:center;
+	color:#fff;
+	margin:10px;
+}
+#ProfilePic{
+    float:right;
+    height:100%;
+}
+#InfoTopBar{
+    top:0;
+    right:0;
+    width:90%;
+    height:60px;
+    position:absolute;
+    margin-top:20px;
+}
+#WM{
+    float:right;
+    margin:0 3% 0px 1%;
+    font-size: 20px;
+    top: 50%;
+    line-height:60px;
+}
+#BottomSideNav{
+    width:100%;
+    position:absolute;
+    bottom:0;
+    background-color:#444;
+    padding:0;
+    margin:0;
+    height:100px;
+}
+#BottomSideNav p,a{
+    font-size:12px;
+    line-height:33.333px;
+}
+#ProfileOptions li{
+    float:left;
+}
+#ProfileOptions li a{
+    padding:5% 5% 6% 0;
+    margin:00;
+    color:white;
+}
+#ProfileOptions li a:hover{
+    text-decoration: underline;
+}
+#ProfilePic2{
+    width: 100%;
+    padding:0;
+    margin:20% 0 0% 5%;
+}
+#DasboardElementsContainer{
+    width:90%;
+    margin:100px 0 0 10%;
+    height:13980px;
+}
+/*Dash Elements*/
+#DasboardElementsContainer div{
+    float:left;
+    margin:3% 0 0 3%;
+    padding:0;
+    height:200px;
+    border-radius: 4px;
+}
+#DasboardElementsContainer div h4{
+    text-align: center;
+    color:white;
+    font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+	margin:0;
+	padding-top:20px;
+}
+
+.SquareBox{/*2:2 block*/
+    width:200px;
+}
+.SmallBox{/*2:3 block*/
+    width:300px;
+}
+.WideBox{/*2:4 block*/
+    width:400px;
+}
+@media (max-width: 1200px) {
+    #DasboardElementsContainer div h4{
+    text-align: center;
+    color:white;
+    font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+	font-size: 36px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+	margin:0;
+	padding-top:25px;
+    }
+    #InfoSideBar{
+        display:none;
+    }
+    #DasboardElementsContainer{
+        width:95%;
+        margin:90px 2.5% 0 2.5%;
+    }
+    #InfoTopBar{
+        position:fixed;
+        width:100%;
+        top:0;
+        background-color: rgba(0, 0, 0, 0.7);
+        margin-top:0;
+    }
+    #DasboardElementsContainer div{
+    float:left;
+    margin:3% 0 0 3%;
+    padding:0;
+    height:300px;
+    border-radius: 6px;
+    }
+    .SquareBox{/*2:2 block*/
+    width:300px;
+    }
+    .SmallBox{/*2:3 block*/
+        width:450px;
+    }
+    .WideBox{/*2:4 block*/
+        width:600px;
+    }
+    #WM{
+        color:white;
+        font-size:25px;
+    }
+}
